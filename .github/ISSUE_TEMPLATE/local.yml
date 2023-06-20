@@ -44,6 +44,19 @@ body:
         - I do not say
     validations:
       required: true
+  - type: dropdown
+    id: ATM-Debit
+    attributes:
+      label: ATM/Debit card
+      description: Do you have ATM/Debit card?
+      multiple: true
+      options:
+        - "Yes"
+        - "No"
+        - Prefer not to say
+        - I do not say
+    validations:
+      required: true
   - type: input
     id: what-happened
     attributes:
