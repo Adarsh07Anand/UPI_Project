@@ -30,7 +30,11 @@ body:
       description: Name of banks/branch.
       placeholder: ex. SBI
     validations:
-      required: true
+      required: true 
+   - type: markdown
+    attributes:
+      value: |
+        Banking products/services used (multi-choice – includes open list) - Personal usage/awareness? 
   - type: input
     id: what-happened
     attributes:
