@@ -36,7 +36,7 @@ body:
     attributes:
       label: Check book
       description: Do you have check book?
-       multiple: true
+      multiple: true
       options:
         - Yes
         - No
