@@ -90,6 +90,13 @@ body:
       description: Name
     validations:
       required: true
+    - type: input
+    id: Business
+    attributes:
+      label: Products via Business correspondent / Bank Mitra, Post office 
+      description: name
+    validations:
+      required: true
   - type: input
     id: what-happened
     attributes:
