@@ -66,8 +66,8 @@ body:
   - type: dropdown
     id: Credit-Card
     attributes:
-      label: Credit Card
-      description: Do you have Credit Card?
+      label: क्रेडिट कार्ड
+      description: क्या आपके पास क्रेडिट कार्ड है?
       multiple: true
       options:
         - "हाँ"
