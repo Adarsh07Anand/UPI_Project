@@ -84,6 +84,13 @@ body:
     validations:
       required: true
   - type: input
+    id: branch
+    attributes:
+      label: Products via branch
+      description: Name
+    validations:
+      required: true
+  - type: input
     id: what-happened
     attributes:
       label: What happened?
