@@ -84,10 +84,10 @@ body:
     validations:
       required: true
   - type: dropdown
-    id: Loans
+    id: Yojna
     attributes:
-      label: Yojna
-      description: Atal Pension Yojna +++,
+      label: Atal Pension Yojna
+      description: Have you taken any govenment scheme.
       multiple: true
       options:
         - "Yes"
