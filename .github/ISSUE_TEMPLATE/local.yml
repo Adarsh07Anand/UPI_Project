@@ -18,18 +18,24 @@ body:
   - type: input
     id: Bank
     attributes:
-      label: Bank account
+      label: Bank Account
       description: Number of bank Saving accounts /Post office accounts.
-      placeholder: ex. number
+      placeholder: ex. Number
     validations:
       required: true
   - type: input
     id: Bank-detail
     attributes:
       label: Name of Bank
-      description: Name of banks/branch.
+      description: Name of Banks/branch.
       placeholder: ex. SBI
     validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: | 
+         ## Banking products/services used (multi-choice – includes open list) - Personal usage/awareness?
+    validations: 
       required: true
   - type: dropdown
     id: Check-book
