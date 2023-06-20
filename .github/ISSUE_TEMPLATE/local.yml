@@ -32,9 +32,9 @@ body:
     validations:
       required: true
   - type: dropdown
-    id: Check book
+    id: Check-book
     attributes:
-      label: Checkbook
+      label: Check book
       description: Do you have check book?
       multiple: true
       options:
