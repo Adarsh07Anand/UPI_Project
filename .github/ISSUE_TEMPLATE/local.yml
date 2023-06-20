@@ -41,7 +41,9 @@ body:
         - "Yes"
         - "No"
         - Prefer not to say
-        - I do not say 
+        - I do not say
+    validations:
+      required: true
   - type: input
     id: what-happened
     attributes:
