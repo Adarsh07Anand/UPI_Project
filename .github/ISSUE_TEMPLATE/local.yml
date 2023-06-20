@@ -10,19 +10,19 @@ body:
       value: |
         Thanks for taking the time to fill out this bug report!
   - type: input
-    id: Bank-detail
+    id: Bank
     attributes:
       label: Bank account
       description: Number of bank Saving accounts /Post office accounts.
       placeholder: ex. number
     validations:
       required: true
-  - type: input
-    id: Account-detail
+  - type: textarea
+    id: Bank-detail
     attributes:
-      label: Bank account
+      label: Name of Bank
       description: Name of banks/branch.
-      placeholder: ex. number
+      placeholder: ex. SBI
     validations:
       required: true
   - type: input
