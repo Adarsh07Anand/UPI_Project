@@ -94,7 +94,19 @@ body:
     id: Business
     attributes:
       label: Products via Business correspondent / Bank Mitra, Post office 
-      description: name
+      description: Name
     validations:
       required: true
-  
+  - type: dropdown
+    id: Internet-Banking
+    attributes:
+      label: Online / Mobile banking:
+      description: Are you using Internet banking
+      multiple: true
+      options:
+        - "Yes"
+        - "No"
+        - Prefer not to say
+        - I do not say
+    validations:
+      required: true
