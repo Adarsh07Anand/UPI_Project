@@ -31,6 +31,17 @@ body:
       placeholder: ex. SBI
     validations:
       required: true
+  - type: dropdown
+    id: Check book
+    attributes:
+      label: Check book
+      description: Do you have check book?
+       multiple: true
+      options:
+        - Yes
+        - No
+        - Prefer not to say
+        - I do not say 
   - type: input
     id: what-happened
     attributes:
