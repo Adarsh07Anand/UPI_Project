@@ -34,7 +34,7 @@ body:
    - type: markdown
     attributes:
       value: |
-        Banking products/services used (multi-choice – includes open list) - Personal usage/awareness? 
+        Banking products/services.
   - type: input
     id: what-happened
     attributes:
