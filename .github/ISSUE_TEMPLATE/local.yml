@@ -74,7 +74,7 @@ body:
     id: Loans
     attributes:
       label: Loans
-      description: Have you taken any loan like Gold, Kisan, etc
+      description: Have you taken any loans like Gold, Kisan, etc
       multiple: true
       options:
         - "Yes"
@@ -90,7 +90,7 @@ body:
       description: Name
     validations:
       required: true
-    - type: input
+  - type: input
     id: Business
     attributes:
       label: Products via Business correspondent / Bank Mitra, Post office 
