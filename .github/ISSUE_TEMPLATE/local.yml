@@ -10,10 +10,10 @@ body:
       value: |
         Thanks for taking the time to fill out this bug report!
   - type: input
-    id: Bank account
+    id: Bank detail
     attributes:
       label: Bank account
-      description: Number of bank Saving accounts /Post office accounts:
+      description: Number of bank Saving accounts /Post office accounts.
       placeholder: ex. email@example.com
     validations:
       required: false
