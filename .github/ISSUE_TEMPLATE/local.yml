@@ -40,7 +40,7 @@ body:
   - type: dropdown
     id: Check-book
     attributes:
-      label: Check book
+      label: Cheque book
       description: Do you have check book?
       multiple: true
       options:
