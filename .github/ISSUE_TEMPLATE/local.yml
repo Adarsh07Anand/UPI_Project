@@ -83,27 +83,6 @@ body:
         - I do not say
     validations:
       required: true
-  - type: dropdown
-    id: Yojna
-    attributes:
-      label: Atal Pension Yojna
-      description: Have you taken any govenment scheme.
-      multiple: true
-      options:
-        - "Yes"
-        - "No"
-        - Prefer not to say
-        - I do not say
-    validations:
-      required: true
-   - type: input
-    id: product
-    attributes: 
-      label: Products via branch 
-      description: Name
-      placeholder: ex. SBI
-    validations:
-      required: true
   - type: input
     id: what-happened
     attributes:
