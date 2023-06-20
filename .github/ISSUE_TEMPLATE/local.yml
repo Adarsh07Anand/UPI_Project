@@ -10,13 +10,13 @@ body:
       value: |
         Thanks for taking the time to fill out this bug report!
   - type: input
-    id: Bank detail
+    id: Bank-detail
     attributes:
       label: Bank account
       description: Number of bank Saving accounts /Post office accounts.
-      placeholder: ex. email@example.com
+      placeholder: ex. number
     validations:
-      required: false
+      required: true
   - type: textarea
     id: what-happened
     attributes:
