@@ -11,7 +11,8 @@ body:
         Thanks for taking the time to fill out this bug report!
   - type: markdown
     attributes:
-      label: Banking relationship + Products / Channels.
+      value: 
+         Banking relationship + Products / Channels.
     validations: 
       required: true
   - type: input
