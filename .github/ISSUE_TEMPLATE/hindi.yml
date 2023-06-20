@@ -12,15 +12,15 @@ body:
   - type: markdown
     attributes:
       value: | 
-         # Banking relationship + Products / Channels.
+         # बैंकिंग संबंध + उत्पाद / चैनल
     validations: 
       required: true
   - type: input
     id: Bank
     attributes:
-      label: Bank Account
-      description: Number of bank Saving accounts /Post office accounts.
-      placeholder: ex. Number
+      label: बैंक खाता
+      description: बैंक बचत खातों / डाकघर खातों की संख्या
+      placeholder: उदाहरण - संख्या
     validations:
       required: true
   - type: input
