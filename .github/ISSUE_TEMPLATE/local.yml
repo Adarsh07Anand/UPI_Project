@@ -231,3 +231,5 @@ body:
         - UPI
         - NEFT/IMPS/RTGS
         - Other Method
+    validations:
+      required: true
