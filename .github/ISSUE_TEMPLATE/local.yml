@@ -20,7 +20,7 @@ body:
     attributes:
       label: Bank Account
       description: Number of bank Saving accounts /Post office accounts.
-      placeholder: ex. Number
+      placeholder: Number
     validations:
       required: true
   - type: input
@@ -28,7 +28,7 @@ body:
     attributes:
       label: Name of Bank
       description: Name of Banks/branch.
-      placeholder: ex. SBI
+      placeholder: SBI
     validations:
       required: true
   - type: markdown
