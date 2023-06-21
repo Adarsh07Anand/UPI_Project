@@ -220,4 +220,14 @@ body:
       placeholder:  Yes / No
     validations:
       required: true
-   
+  - type: dropdown
+    id: remote
+    attributes:
+      label: Remote payments / fund transfers
+      description: Are you using UPI payments for remote payments?
+      multiple: true
+      options:
+        - Wallet
+        - UPI
+        - NEFT/IMPS/RTGS
+        - Other Method
