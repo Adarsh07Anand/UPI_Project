@@ -158,6 +158,6 @@ body:
     attributes:
       label: Typical amount for Local payments
       description: Approx amount using through UPI
-      placeholder:  10,000
+      placeholder:  "10,000"
     validations:
       required: true
