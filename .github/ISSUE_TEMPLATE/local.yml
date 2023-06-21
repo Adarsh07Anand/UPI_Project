@@ -129,11 +129,19 @@ body:
          # Payments and Transfers (Monthly / Annual):
     validations: 
       required: true
-  - type: input
+  - type: textarea
     id: upi
     attributes:
       label: UPI or UPI enabled apps
       description: You are using any UPI apps?
       placeholder:  ex - BHIM
+    validations:
+      required: true
+  - type: input
+    id: wallets
+    attributes:
+      label: Used Wallets
+      description: You are using wallets?
+      placeholder:  Yes / No
     validations:
       required: true
