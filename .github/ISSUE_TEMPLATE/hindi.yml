@@ -116,7 +116,7 @@ body:
         - मैं नहीं कहना चाहता
     validations:
       required: true
-  - type: textarea
+- type: textarea
     id: Others
     attributes:
       label: अन्य 
