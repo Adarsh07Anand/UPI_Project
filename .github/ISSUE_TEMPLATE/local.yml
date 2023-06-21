@@ -196,3 +196,27 @@ body:
          ## Other BBPS list:
     validations: 
       required: true
+  - type: input
+    id: recharge
+    attributes:
+      label: Phone / data Recharge
+      description: Are you using UPI for recharge payments?
+      placeholder:  Yes / No
+    validations:
+      required: true
+  - type: input
+    id: Electricity
+    attributes:
+      label: Electricity / Water / Utilities
+      description: Are you using UPI for Electricity / Water bills payments?
+      placeholder:  Yes / No
+    validations:
+      required: true
+  - type: input
+    id: othe
+    attributes:
+      label: Others
+      description: Are you using UPI payments for other payments?
+      placeholder:  Yes / No
+    validations:
+      required: true
