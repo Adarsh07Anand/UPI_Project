@@ -177,3 +177,16 @@ body:
       placeholder:  Yes / No
     validations:
       required: true
+  - type: dropdown
+    id: Transport
+    attributes:
+      label: Local Transport
+      description: Which type of local transport you are using?
+      multiple: true
+      options:
+        - Metro
+        - Train
+        - Bus
+        - Others
+    validations:
+      required: true
