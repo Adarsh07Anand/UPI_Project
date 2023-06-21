@@ -69,7 +69,9 @@ body:
     validations:
       required: true
   - type: dropdown
-@@ -70,56 +70,56 @@ body:
+    id: Credit
+    attributes:
+      label: Credit card 
       description: Do you have Credit Card?
       multiple: true
       options:
