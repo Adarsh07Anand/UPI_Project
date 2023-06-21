@@ -190,3 +190,9 @@ body:
         - Others
     validations:
       required: true
+  - type: markdown
+    attributes:
+      value: | 
+         ## Other BBPS list:
+    validations: 
+      required: true
