@@ -169,3 +169,11 @@ body:
       placeholder:  Yes / No
     validations:
       required: true
+  - type: input
+    id: rent
+    attributes:
+      label: Rent
+      description: You have your own house / you are living in Rent
+      placeholder:  Yes / No
+    validations:
+      required: true
