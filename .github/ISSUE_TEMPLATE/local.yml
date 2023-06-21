@@ -134,7 +134,7 @@ body:
     attributes:
       label: UPI or UPI enabled apps
       description: You are using any UPI apps?
-      placeholder:  ex - BHIM
+      placeholder:  BHIM
     validations:
       required: true
   - type: input
@@ -143,5 +143,13 @@ body:
       label: Used Wallets
       description: You are using wallets?
       placeholder:  Yes / No
+    validations:
+      required: true
+  - type: input
+    id: counts
+    attributes:
+      label: 	Typical Count of Local Payments per month (in proximity / phone number, UPI-handle etc.)
+      description: Number of counts
+      placeholder:  Number
     validations:
       required: true
