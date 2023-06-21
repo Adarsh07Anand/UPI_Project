@@ -127,22 +127,22 @@ body:
   - type: markdown
     attributes:
       value: | 
-         # Payments and Transfers (Monthly / Annual)
+         # भुगतान और स्थानांतरण (मासिक / वार्षिक)
     validations: 
       required: true
   - type: textarea
     id: upi
     attributes:
-      label: UPI or UPI enabled apps
-      description: You are using any UPI apps?
+      label: UPI या UPI सक्षम ऐप्स
+      description: आप कोई यूपीआई ऐप इस्तेमाल कर रहे हैं?
       placeholder:  BHIM
     validations:
       required: true
   - type: input
     id: wallets
     attributes:
-      label: Used Wallets
-      description: You are using wallets?
+      label: प्रयुक्त पर्स
+      description: आप बटुए का उपयोग कर रहे हैं?
       placeholder:  Yes / No
     validations:
       required: true
