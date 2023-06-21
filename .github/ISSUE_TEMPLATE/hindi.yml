@@ -53,32 +53,23 @@ body:
   - type: dropdown
     id: ATM-Debit
     attributes:
-      label: ATM/Debit card
-      description: Do you have ATM/Debit card?
       label: एटीएम/डेबिट कार्ड
       description: क्या आपके पास एटीएम/डेबिट कार्ड है?
       multiple: true
       options:
-        - "Yes"
-        - "No"
         - "हाँ"
         - "नहीं"
         - चुप रहना पसंद करूंगा
-        - I do not say
         - मैं नहीं कहना चाहता
     validations:
       required: true
   - type: dropdown
-    id: Credit
+    id: Credit-Card
     attributes:
-      label: Credit card 
-      description: Do you have Credit Card?
+      label: क्रेडिट कार्ड
+      description: क्या आपके पास क्रेडिट कार्ड है?
       multiple: true
       options:
-        - "Yes"
-        - "No"
-        - Prefer not to say
-        - I do not say
         - "हाँ"
         - "नहीं"
         - चुप रहना पसंद करूंगा
@@ -88,16 +79,10 @@ body:
   - type: dropdown
     id: Loans
     attributes:
-      label: Loans
-      description: Have you taken any loans like Gold, Kisan, etc
       label: ऋण
       description: क्या आपने सोना, किसान आदि कोई कर्ज लिया है?
       multiple: true
       options:
-        - "Yes"
-        - "No"
-        - Prefer not to say
-        - I do not say
         - "हाँ"
         - "नहीं"
         - चुप रहना पसंद करूंगा
@@ -107,8 +92,6 @@ body:
   - type: input
     id: branch
     attributes:
-      label: Products via branch
-      description: Name
       label: शाखा के माध्यम से उत्पाद
       description: नाम
     validations:
@@ -116,8 +99,6 @@ body:
   - type: input
     id: Business
     attributes:
-      label: Products via Business correspondent / Bank Mitra, Post office 
-      description: Name
       label: व्यवसाय संवाददाता / बैंक मित्र, डाकघर के माध्यम से उत्पाद
       description: नाम
     validations:
@@ -125,16 +106,10 @@ body:
   - type: dropdown
     id: Internet-Banking
     attributes:
-      label: Online / Mobile banking.
-      description: Are you using Internet banking
       label: ऑनलाइन / मोबाइल बैंकिंग
       description: क्या आप इंटरनेट बैंकिंग का उपयोग कर रहे हैं?
       multiple: true
       options:
-        - "Yes"
-        - "No"
-        - Prefer not to say
-        - I do not say
         - "हाँ"
         - "नहीं"
         - चुप रहना पसंद करूंगा
@@ -145,7 +120,7 @@ body:
     id: Others
     attributes:
       label: Others 
-      description: Name
+      label: अन्य 
       description: नाम
     validations:
       required: true  
