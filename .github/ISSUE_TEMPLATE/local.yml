@@ -164,7 +164,7 @@ body:
   - type: input
     id: QR
     attributes:
-      label: QR Code based Payments:
+      label: QR Code based Payments
       description: Are you making payment through QR code?
       placeholder:  Yes / No
     validations:
