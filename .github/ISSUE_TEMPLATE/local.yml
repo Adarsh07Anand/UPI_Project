@@ -39,6 +39,21 @@ body:
       placeholder: SBI
     validations:
       required: true
+  - type: dropdown
+    id: Banking-product
+    attributes:
+      label: Banking Products
+      description: What are the banking services you use
+      multiple: true
+      options:
+        - Cheque Book
+        - ATM / Debit Card
+        - Credit Card
+        - Net Banking
+        - Loans
+        - Insurance
+    validations:
+      required: true    
   - type: input
     id: branch
     attributes:
