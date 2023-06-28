@@ -182,16 +182,16 @@ body:
   - type: input
     id: counts
     attributes:
-      label: 	Typical Count of Local Payments per month (in proximity / phone number, UPI-handle etc.)
-      description: Number of counts
+      label: 	Local Payment Counts
+      description: How often do you use UPI handles/phone numbers for Local Payment/s in a month? 
       placeholder:  Number
     validations:
       required: true
   - type: input
     id: Local-payment
     attributes:
-      label: Typical amount for Local payments
-      description: Approx amount using through UPI
+      label: Local Payment Amount
+      description: How much have you spent/transfer last month in Local payments
       placeholder:  "10,000"
     validations:
       required: true
