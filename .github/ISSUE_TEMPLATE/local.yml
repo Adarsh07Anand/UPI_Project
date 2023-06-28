@@ -20,7 +20,7 @@ body:
     attributes:
       label: Bank Account
       description: How many bank accounts do you have.
-      placeholder: Number
+      placeholder: Numbers
     validations:
       required: true
   - type: input
