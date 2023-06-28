@@ -24,6 +24,14 @@ body:
     validations:
       required: true
   - type: input
+    id: Post
+    attributes:
+      label: Post Office Account
+      description: How many Post office accounts do you have.
+      placeholder: Number
+    validations:
+      required: true    
+  - type: input
     id: Bank-detail
     attributes:
       label: Name of Bank
