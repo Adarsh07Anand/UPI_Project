@@ -131,12 +131,16 @@ body:
          # Payments and Transfers (Monthly / Annual)
     validations: 
       required: true
-  - type: textarea
+  - type: dropdown
     id: upi
     attributes:
-      label: UPI or UPI enabled apps
-      description: You are using any UPI apps?
-      placeholder:  BHIM
+      label: UPI-enabled apps
+      description: Do you have any app/s related to UPI?
+      options:
+        - "Yes"
+        - "No"
+        - Do not know
+        - will not say
     validations:
       required: true
   - type: input
