@@ -66,13 +66,21 @@ body:
     id: remote-family
     attributes:
       label: Remote Family
-      description: Do you transfer funds to remote family?
+      description: Do you transfer money to remote family?
       # multiple: true
       options:
         - "Yes"
         - "No"
         - Do not know
         - will not say
+    validations:
+      required: true
+  - type: input
+    id: Remote-family-money
+    attributes:
+      label: Remote Family Money
+      description: How much money do you transfer to remote family in a month?
+      placeholder: Numbers
     validations:
       required: true
   - type: input
