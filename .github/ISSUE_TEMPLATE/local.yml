@@ -192,15 +192,27 @@ body:
     attributes:
       label: Local Payment Amount
       description: How much have you spent/transfer last month in Local payments
+      placeholder:  "4,000"
+    validations:
+      required: true
+   - type: input
+    id: Local-payment-avg
+    attributes:
+      label: Local Payment Average
+      description: What is the average spending/transfer amount per month on Local payments
       placeholder:  "10,000"
     validations:
       required: true
   - type: input
     id: QR
     attributes:
-      label: QR Code based Payments
-      description: Are you making payment through QR code?
-      placeholder:  Yes / No
+      label: QR Code
+      description: Have you used QR code/s as a payment option/s?
+      options:
+        - "Yes"
+        - "No"
+        - Do not know
+        - will not say
     validations:
       required: true
   - type: input
