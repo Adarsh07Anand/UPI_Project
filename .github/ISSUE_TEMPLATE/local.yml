@@ -114,7 +114,7 @@ body:
     attributes:
       label: Remote Family Money
       description: How much money do you transfer to remote family in a month?
-      placeholder: Numbers
+      placeholder: Number
     validations:
       required: true
   - type: input
@@ -122,7 +122,7 @@ body:
     attributes:
       label: Financial Notes
       description: Amount of money sent to someone other than family.
-      placeholder: Numbers
+      placeholder: Number
     validations:
       required: true
   - type: markdown
@@ -148,7 +148,7 @@ body:
     attributes:
       label: Number of UPI apps
       description: How many such apps you have installed in your mobile?
-      placeholder: Numbers
+      placeholder: Number
     validations:
       required: true
   - type: input
@@ -169,6 +169,14 @@ body:
         - "No"
         - Do not know
         - will not say
+    validations:
+      required: true
+  - type: input
+    id: wallet-weekly
+    attributes:
+      label: Wallet Weekly
+      description: How often do you use Wallet for any transaction weekly?
+      placeholder: Number
     validations:
       required: true
   - type: input
