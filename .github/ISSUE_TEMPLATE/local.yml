@@ -144,6 +144,14 @@ body:
     validations:
       required: true
   - type: input
+    id: upi-apps
+    attributes:
+      label: Number of UPI apps
+      description: How many such apps you have installed in your mobile?
+      placeholder: Numbers
+    validations:
+      required: true
+  - type: input
     id: wallets
     attributes:
       label: Used Wallets
