@@ -117,6 +117,14 @@ body:
       placeholder: Numbers
     validations:
       required: true
+  - type: input
+    id: financial-notes
+    attributes:
+      label: Financial Notes
+      description: Amount of money sent to someone other than family.
+      placeholder: Numbers
+    validations:
+      required: true
   - type: markdown
     attributes:
       value: | 
