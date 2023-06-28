@@ -159,12 +159,16 @@ body:
       placeholder: BHIM/Phonepe/G-pay/Paytem
     validations:
       required: true
-  - type: input
+  - type: dropdown
     id: wallets
     attributes:
       label: Used Wallets
-      description: You are using wallets?
-      placeholder:  Yes / No
+      description: Have you ever used Wallets during transaction?
+      options:
+        - "Yes"
+        - "No"
+        - Do not know
+        - will not say
     validations:
       required: true
   - type: input
