@@ -54,7 +54,7 @@ body:
         - Insurance
     validations:
       required: true    
-   - type: input
+  - type: input
     id: gov-scheme
     attributes:
       label: Government Schemes
@@ -62,7 +62,7 @@ body:
       placeholder: Atal Pension Yojana/Samrudhi Youjana/Others
     validations:
       required: true 
-   - type: dropdown
+  - type: dropdown
     id: remote-family
     attributes:
       label: Remote Family
