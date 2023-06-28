@@ -195,7 +195,7 @@ body:
       placeholder:  "4,000"
     validations:
       required: true
-   - type: input
+  - type: input
     id: Local-payment-avg
     attributes:
       label: Local Payment Average
