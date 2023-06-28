@@ -19,7 +19,7 @@ body:
     id: Bank
     attributes:
       label: Bank Account
-      description: Number of bank Saving accounts /Post office accounts.
+      description: How many bank accounts do you have.
       placeholder: Number
     validations:
       required: true
