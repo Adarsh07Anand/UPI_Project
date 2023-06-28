@@ -152,6 +152,14 @@ body:
     validations:
       required: true
   - type: input
+    id: upi-app-detail
+    attributes:
+      label: UPI apps detail
+      description: UPI or UPI enabled app/s details: 
+      placeholder: BHIM/Phonepe/G-pay/Paytem
+    validations:
+      required: true
+  - type: input
     id: wallets
     attributes:
       label: Used Wallets
