@@ -58,10 +58,23 @@ body:
     id: gov-scheme
     attributes:
       label: Government Schemes
-      description: What are government benefit Schemes you use 
+      description: What are the government benefit Schemes you use 
       placeholder: Atal Pension Yojana/Samrudhi Youjana/Others
     validations:
       required: true 
+   - type: dropdown
+    id: remote-family
+    attributes:
+      label: Remote Family
+      description: Do you transfer funds to remote family?
+      # multiple: true
+      options:
+        - "Yes"
+        - "No"
+        - Do not know
+        - will not say
+    validations:
+      required: true
   - type: input
     id: branch
     attributes:
