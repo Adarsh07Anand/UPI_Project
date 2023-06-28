@@ -54,7 +54,7 @@ body:
         - Insurance
     validations:
       required: true    
-  - type: input
+   - type: input
     id: gov-scheme
     attributes:
       label: Government Schemes
