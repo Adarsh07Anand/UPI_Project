@@ -199,8 +199,12 @@ body:
     id: QR
     attributes:
       label: QR Code based Payments
-      description: Are you making payment through QR code?
-      placeholder:  Yes / No
+      description: Have you used QR code/s as a payment option/s?
+      options:
+        - "Yes"
+        - "No"
+        - Do not know
+        - will not say
     validations:
       required: true
   - type: input
