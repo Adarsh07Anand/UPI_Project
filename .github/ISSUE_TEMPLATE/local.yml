@@ -231,25 +231,17 @@ body:
       placeholder:  "5,000"
     validations:
       required: true     
-  - type: input
-    id: rent
-    attributes:
-      label: Rent
-      description: You have your own house / you are living in Rent
-      placeholder:  Yes / No
-    validations:
-      required: true
   - type: dropdown
     id: Transport
     attributes:
-      label: Local Transport
-      description: Which type of local transport you are using?
-      multiple: true
+      label: UPI Payment for Local Transport
+      description: Do you use UPI payment methods for local transportation purposes (such as metro/bus/MRTS/Ola/Uber)
+      # multiple: true
       options:
-        - Metro
-        - Train
-        - Bus
-        - Others
+        - "Yes"
+        - "No"
+        - Do not know
+        - will not say
     validations:
       required: true
   - type: markdown
