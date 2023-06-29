@@ -195,7 +195,7 @@ body:
       placeholder:  "10,000"
     validations:
       required: true
-  - type: input
+  - type: dropdown
     id: QR
     attributes:
       label: QR Code based Payments
