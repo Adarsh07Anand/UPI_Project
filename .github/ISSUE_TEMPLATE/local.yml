@@ -122,7 +122,7 @@ body:
     attributes:
       label: Financial Notes
       description: Amount of money sent to someone other than family.
-      placeholder: Number
+      placeholder: "6,000"
     validations:
       required: true
   - type: markdown
@@ -176,7 +176,7 @@ body:
     attributes:
       label: Wallet Weekly
       description: How often do you use Wallet for any transaction weekly?
-      placeholder: Number
+      placeholder: "5,000"
     validations:
       required: true
   - type: input
@@ -220,7 +220,7 @@ body:
     attributes:
       label: QR Payment Weekly
       description: QR Code based payments in last week
-      placeholder: Number
+      placeholder: "6,000"
     validations:
       required: true  
   - type: input
@@ -252,34 +252,19 @@ body:
       placeholder:  "10,000"
     validations:
       required: true
-  - type: markdown
+  - type: dropdown
+    id: BBPS
     attributes:
-      value: | 
-         ## Other BBPS list:
-    validations: 
-      required: true
-  - type: input
-    id: recharge
-    attributes:
-      label: Phone / data Recharge
-      description: Are you using UPI for recharge payments?
-      placeholder:  Yes / No
-    validations:
-      required: true
-  - type: input
-    id: Electricity
-    attributes:
-      label: Electricity / Water / Utilities
-      description: Are you using UPI for Electricity / Water bills payments?
-      placeholder:  Yes / No
-    validations:
-      required: true
-  - type: input
-    id: othe
-    attributes:
-      label: Others
-      description: Are you using UPI for other payments?
-      placeholder:  Yes / No
+      label: BBPS Facilities
+      description: Do you use UPI-based payment methods in other BBPS facilities (Select all that apply)
+      multiple: true
+      options:
+        - Phone/Data recharge
+        - Electricity
+        - Water bills
+        - Utility bills
+        - Online Purchase
+        - Others
     validations:
       required: true
   - type: dropdown
