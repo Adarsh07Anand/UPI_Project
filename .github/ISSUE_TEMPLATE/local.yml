@@ -66,7 +66,8 @@ body:
     id: branch
     attributes:
       label: Products via branch
-      description: Name
+      description: Services/Items which we used
+      placeholder: Cheque book/ATM/Credit Cards
     validations:
       required: true
   - type: input
