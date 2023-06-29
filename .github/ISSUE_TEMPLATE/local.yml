@@ -128,6 +128,90 @@ body:
       required: true
   - type: markdown
     attributes:
+      value: "## Investments"
+
+  - type: input
+    id: prompt5a
+    attributes:
+      label: FD / RD		
+      placeholder: Enter the amount in INR
+    validations:
+      required: true
+  - type: input
+    id: prompt5b
+    attributes:
+      label: Mutual Funds 				
+      placeholder: Enter the amount in INR
+    validations:
+      required: true
+  - type: input
+    id: prompt5c
+    attributes:
+      label: Others				
+      placeholder: Enter the amount in INR
+    validations:
+      required: true  
+  - type: input
+    id: prompt5d
+    attributes:
+      label: Others				
+      placeholder: Enter the amount in INR
+    validations:
+     # required: true
+  - type: markdown
+    attributes:
+      value: "## Loans / Liability "
+
+  - type: input
+    id: prompt6a
+    attributes:
+      label: Loan Type					
+      placeholder: Write here
+    validations:
+      required: true
+
+  - type: input
+    id: prompt6b
+    attributes:
+      label: Amount			 				
+      placeholder: Enter the amount in INR
+    validations:
+      #required: true
+
+  - type: input
+    id: prompt6c
+    attributes:
+      label: Bank			 				
+      placeholder: Write here
+    validations:
+      #required: true
+
+  - type: input
+    id: prompt6d
+    attributes:
+      label: Loan Type					
+      placeholder: Write here
+    validations:
+      #required: true
+
+  - type: input
+    id: prompt6e
+    attributes:
+      label: Amount			 				
+      placeholder: Enter the amount in INR
+    validations:
+     # required: true
+
+  - type: input
+    id: prompt6f
+    attributes:
+      label: Bank			 				
+      placeholder: Write here
+    validations:
+     # required: true
+    
+  - type: markdown
+    attributes:
       value: | 
          # Payments and Transfers (Monthly / Annual)
     validations: 
