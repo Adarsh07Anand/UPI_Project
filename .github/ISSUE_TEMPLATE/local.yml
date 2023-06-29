@@ -227,7 +227,7 @@ body:
     id: QR-amount
     attributes:
       label: QR Payment Amount
-      description: 	QR Code based payment (on an average per month):
+      description: 	QR Code based payment (on an average per month)
       placeholder:  "5,000"
     validations:
       required: true     
