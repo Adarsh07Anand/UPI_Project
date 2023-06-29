@@ -208,6 +208,14 @@ body:
     validations:
       required: true
   - type: input
+    id: qr-counts
+    attributes:
+      label: 	QR Payment Counts
+      description: How often you use QR code for payments? 
+      placeholder:  Number
+    validations:
+      required: true
+  - type: input
     id: rent
     attributes:
       label: Rent
