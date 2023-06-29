@@ -244,6 +244,14 @@ body:
         - will not say
     validations:
       required: true
+  - type: input
+    id: Local-payment-transport
+    attributes:
+      label: Local Transportation Amount
+      description: How much usually do you spend on transportation using UPI payment methods?
+      placeholder:  "10,000"
+    validations:
+      required: true
   - type: markdown
     attributes:
       value: | 
