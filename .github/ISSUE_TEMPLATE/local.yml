@@ -89,7 +89,7 @@ body:
         - I do not say
     validations:
       required: true
-  - type: textarea
+  - type: input
     id: Others
     attributes:
       label: Others 
@@ -176,7 +176,7 @@ body:
     attributes:
       label: Wallet Weekly
       description: How often do you use Wallet for any transaction weekly?
-      placeholder: "5,000"
+      placeholder: "1,000"
     validations:
       required: true
   - type: input
@@ -220,7 +220,7 @@ body:
     attributes:
       label: QR Payment Weekly
       description: QR Code based payments in last week
-      placeholder: "6,000"
+      placeholder: "2,000"
     validations:
       required: true  
   - type: input
@@ -228,7 +228,7 @@ body:
     attributes:
       label: QR Payment Amount
       description: 	QR Code based payment (on an average per month)
-      placeholder:  "5,000"
+      placeholder:  "8,000"
     validations:
       required: true     
   - type: dropdown
