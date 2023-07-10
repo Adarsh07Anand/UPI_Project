@@ -1,18 +1,195 @@
-name: Bug Report
-description: File a bug report
-title: "[Bug]: "
-labels: ["bug", "triage"]
+name: Survey for Local Language Repository
+description: Survey
+title: "[Survey Form]: "
 assignees:
-  - octocat
+  - Lingaraj, Shruti, Adarsh
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        # Survey for Local Language Repository
+        # -------------------------------------------------
+  - type: markdown
+    attributes:
+      value: |
+        # 1. Administrative
+  - type: input
+    id: name
+    attributes:
+      label: Name/ Code of surveyor
+      description: Enter the name
+      placeholder: ex. Lingaraj/Adarsh/Shruti
+    validations:
+      required: True
+  - type: input
+    id: date_time
+    attributes:
+      label: Date
+    validations:
+      required: True
+  - type: input
+    id: location
+    attributes:
+      label: Location
+      description: Where the surveyor taking the survey?
+      placeholder: eg. Near Main Gate IIT Madras
+    validations:
+      required: true
+  - type: input
+    id: time
+    attributes:
+      label: Start Time
+      description: When the survey starts?
+      placeholder: e.g. 10.00 AM
+    validations:
+      required: True
+  - type: input
+    id: session_count
+    attributes:
+      label: Session Count / Prior meeting notes
+      description: Number of sessions per person
+      placeholder: e.g - 1st / 2nd
+    validations:
+          required: true
+  - type: markdown
+    attributes:
+      value: |
+        # 2. Demography / General
+  - type: input
+    id: name1
+    attributes: 
+      label: Name
+      description: Name of the person
+    validations:
+      required: True
+  - type: input
+    id: age
+    attributes:
+      label: Age
+      description: Enter the people age
+      placeholder: e.g. 30
+    validations:
+      required: True
+  - type: dropdown
+    id: gender
+    attributes:
+      label: Gender
+      options:
+        - Male
+        - Female
+        - Other
+    validations:
+      required: True
+  - type: input
+    id: mobile_num
+    attributes:
+      label: Mobile Number
+      description: Enter Mobile number of participant
+  - type: dropdown
+    id: languages
+    attributes:
+      label: Languages Known
+      description: What are the languages know by them
+      options:
+        - English
+        - Hindi
+        - Tamil
+        - Odia
+        - Telugu
+        - Bengali
+      multiple: True
+    validations:
+      required: True    
+  - type: input
+    id: mobile
+    attributes:
+      label: Phone make / model
+      description: Participant is using iOS/Android or (Smartphone / basic keypad phone)
+      placeholder: e.g. Smartphone
+    validations:
+      required: True
+  - type: input
+    id: family
+    attributes:
+      description: If they are living alone then size will be 1 or input accordingly to response
+      label: Local Family Size
+    validations:
+      required: True
+  - type: dropdown
+    id: mobile1
+    attributes:
+      label: Mobile Data/Internet Access
+      description: Are they have internet access
+      options:
+        - "Yes"
+        - "No"
+    validations:
+      required: True
+  - type: input
+    id: address
+    attributes:
+      label: Home State?
+      description: Enter the participant home state
+      placeholder: e.g. Odisha
+    validations:
+      required: True
+  - type: dropdown
+    id: family_size
+    attributes:
+      label: Remote family size
+      description: Enter the participant remote family size
+      options:
+        - 1-2
+        - 2-3
+        - 3-4
+    validations:
+      required: True
+  - type: input
+    id: education
+    attributes:
+      label: Number of years of schooling
+      description: Enter the participant number of years of schooling
+      placeholder: e.g. 5th / 8th
+    validations:
+      required: True
+  - type: dropdown
+    id: literacy
+    attributes:
+      label: Digital Literacy
+      description: 1. What Language do you primarily communicate in ?     2. Do you experience any difficulties in receiving messages?       3. Do you receive calls from banks?    4. Do you receive messages from banks, such as OTPs (One-Time Passwords)?       5. Are you able to read and access all the messages on your phone?       6. In which language do you receive messages?         7. Can you understand and read messages sent in the English language?           8. Are you aware of the importance of not sharing OTPs with anyone? 
+      options:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+    validations:
+      required: True
+  - type: dropdown
+    id: prompt1
+    attributes:
+      label: Monthly Income
+      multiple: false
+      options:
+        - "< ₹10,000"
+        - "₹10,000 -  ₹20,000"
+        - "₹20,001 -  ₹30,000"
+        - "₹30,001 - ₹40,000"
+        - "Above ₹40,000"
+    validations:
+      required: true
+
+  - type: input
+    id: prompt2
+    attributes:
+      label: Local Monthly Expense
+      placeholder: Enter the amount in INR
+    validations:
+      required: true
   - type: markdown
     attributes:
       value: | 
-         # Banking relationship + Products / Channels
+         # 3. Banking relationship + Products / Channels
     validations: 
       required: true
   - type: input
@@ -62,21 +239,6 @@ body:
       placeholder: Atal Pension Yojana/Samrudhi Youjana/Others
     validations:
       required: true 
-  - type: input
-    id: branch
-    attributes:
-      label: Products via branch
-      description: Services/Items which we used
-      placeholder: Cheque book/ATM/Credit Cards
-    validations:
-      required: true
-  - type: input
-    id: Business
-    attributes:
-      label: Products via Business correspondent / Bank Mitra, Post office 
-      description: Name
-    validations:
-      required: true
   - type: dropdown
     id: Internet-Banking
     attributes:
@@ -96,7 +258,7 @@ body:
       label: Others 
       description: Name
     validations:
-      required: true  
+      required: false 
   - type: dropdown
     id: remote-family
     attributes:
@@ -133,28 +295,28 @@ body:
   - type: input
     id: prompt5a
     attributes:
-      label: FD / RD		
+      label: FD / RD    
       placeholder: Enter the amount in INR
     validations:
       required: true
   - type: input
     id: prompt5b
     attributes:
-      label: Mutual Funds 				
+      label: Mutual Funds         
       placeholder: Enter the amount in INR
     validations:
       required: true
   - type: input
     id: prompt5c
     attributes:
-      label: Others				
+      label: Others        
       placeholder: Enter the amount in INR
     validations:
       required: true  
   - type: input
     id: prompt5d
     attributes:
-      label: Others				
+      label: Others        
       placeholder: Enter the amount in INR
     validations:
      # required: true
@@ -165,15 +327,14 @@ body:
   - type: input
     id: prompt6a
     attributes:
-      label: Loan Type					
+      label: Loan Type          
       placeholder: Write here
     validations:
       required: true
-
   - type: input
     id: prompt6b
     attributes:
-      label: Amount			 				
+      label: Amount               
       placeholder: Enter the amount in INR
     validations:
       required: true
@@ -181,7 +342,7 @@ body:
   - type: input
     id: prompt6c
     attributes:
-      label: Bank			 				
+      label: Bank               
       placeholder: Write here
     validations:
       required: true
@@ -189,7 +350,7 @@ body:
   - type: input
     id: prompt6d
     attributes:
-      label: Loan Type					
+      label: Loan Type          
       placeholder: Write here
     validations:
       #required: true
@@ -197,7 +358,7 @@ body:
   - type: input
     id: prompt6e
     attributes:
-      label: Amount			 				
+      label: Amount               
       placeholder: Enter the amount in INR
     validations:
      # required: true
@@ -205,7 +366,7 @@ body:
   - type: input
     id: prompt6f
     attributes:
-      label: Bank			 				
+      label: Bank               
       placeholder: Write here
     validations:
      # required: true
@@ -213,7 +374,7 @@ body:
   - type: markdown
     attributes:
       value: | 
-         # Payments and Transfers (Monthly / Annual)
+         # 4. Payments and Transfers (Monthly / Annual)
     validations: 
       required: true
   - type: dropdown
@@ -236,14 +397,28 @@ body:
       placeholder: Number
     validations:
       required: true
-  - type: input
+  - type: dropdown
     id: upi-app-detail
     attributes:
       label: UPI apps detail
       description: UPI or UPI enabled app/s details 
-      placeholder: BHIM/Phonepe/G-pay/Paytem
+      options:
+        - Phone Pe
+        - Google Pay
+        - PayTm
+        - Amazon Pay
+        - BHIM
+      multiple: True
     validations:
       required: true
+    
+  - type: input
+    id: other_upi
+    attributes:
+      label: Other UPI Apps
+      description: Enter other UPI Apps used by participant
+    validations:
+      required: false
   - type: dropdown
     id: wallets
     attributes:
@@ -267,7 +442,7 @@ body:
   - type: input
     id: counts
     attributes:
-      label: 	Local Payment Counts
+      label:   Local Payment Counts
       description: How often do you use UPI handles/phone numbers for Local Payment/s in a month? 
       placeholder:  Number
     validations:
@@ -295,27 +470,11 @@ body:
   - type: input
     id: qr-counts
     attributes:
-      label: 	QR Payment Counts
+      label:   QR Payment Counts
       description: How often you use QR code for payments? 
       placeholder:  Number
     validations:
-      required: true
-  - type: input
-    id: QR-weekly
-    attributes:
-      label: QR Payment Weekly
-      description: QR Code based payments in last week
-      placeholder: "2,000"
-    validations:
-      required: true  
-  - type: input
-    id: QR-amount
-    attributes:
-      label: QR Payment Amount
-      description: 	QR Code based payment (on an average per month)
-      placeholder:  "8,000"
-    validations:
-      required: true     
+      required: true   
   - type: dropdown
     id: Transport
     attributes:
@@ -365,3 +524,59 @@ body:
         - Other Method
     validations:
       required: true
+  - type: markdown
+    id: last_part
+    attributes:
+      value: |
+        # 5. Financial Workflows and Phrases
+  - type: dropdown
+    id: common
+    attributes:
+      label: What do you prefer for common financial workflows?
+      options:
+        - Digitally
+        - Physically
+    validations:
+      required: True
+  - type: input
+    id: first_work
+    attributes:
+      label: First workflow name
+      placeholder: For e.g. - Address Change at branch
+    validations:
+      required: True
+  - type: input
+    id: first_workflow
+    attributes:
+      label: What are the phrases you use/expect to be used by you and by the banker/app?
+      description: for e.g.  -Address change/QR Code/ATM
+    validations:
+      required: True
+  - type: input
+    id: first_step
+    attributes:
+      label: Step 1
+      description: What is the first step when you go for the first workflow
+    validations:
+      required: true
+  - type: input
+    id: second_step
+    attributes:
+      label: Step 2
+      description: What is the second step when you go for the first workflow
+    validations:
+      required: true
+  - type: input
+    id: third_step
+    attributes:
+      label: Step 3
+      description: What is the third step when you go for the first workflow
+    validations:
+      required: true
+  - type: input
+    id: fourth_step
+    attributes:
+      label: Step 4
+      description: What is the fourth step when you go for the first workflow
+    validations:
+      required: false
